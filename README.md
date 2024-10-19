@@ -1,1 +1,1 @@
-![Cover Image]([https://github.com/VijayKagupati/VijayKaguopati/blob/main/assets/yourgif.gif](https://github.com/VijayKagupati/VijayKagupati/blob/main/PCVR.gif))
+![PCVR](https://github.com/user-attachments/assets/306d4284-1207-4d6e-a370-16f8fbfcd6a0)
