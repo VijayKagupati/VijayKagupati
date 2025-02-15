@@ -3,7 +3,7 @@
 
 🚀 Passionate developer focusing on VR Development, currently working on a virtual aircraft experience. 
 
-💡 I love exploring new technologies and leveraging them to solve real-world problems with my added passion towards entrepreneurship.
+💡 I love exploring new technologies and leveraging them to solve real-world problems with my added passion towards entrepreneurship!
 
 ## 🛠 Tech Stack
 
