@@ -29,7 +29,7 @@
 
 ## 📚 Currently Learning
 
-- Deep diving into **Machine Learning** Concepts.
+- Deep diving into **Machine Learning** Concepts!
 - Exploring advanced techniques for Unity AR/VR development.
 
 ## 📝 Latest Posts
