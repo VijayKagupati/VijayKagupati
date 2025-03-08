@@ -46,8 +46,4 @@ _Want more? [Check out my LinkedIn](https://www.linkedin.com/in/vijaykagupati/).
 
 - When I'm not coding, I'm probably singing 🎶.
 
-## 📊 GitHub Stats
-
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=VijayKagupati&show_icons=true&theme=radical)
-
 
