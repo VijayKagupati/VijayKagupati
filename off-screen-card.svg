@@ -1,0 +1,38 @@
+<svg viewBox="0 0 800 240" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #fdf8f7; }
+    .border { stroke: #000; stroke-width: 2; }
+    .shadow { fill: #000; }
+    .text { font-family: 'Courier New', monospace; font-size: 14px; fill: #000; }
+    .bold { font-weight: bold; }
+  </style>
+
+  <rect width="100%" height="100%" class="bg"/>
+  <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+    <circle fill="#1c1b1b" cx="2" cy="2" r="1" opacity="0.3"></circle>
+  </pattern>
+  <rect width="100%" height="100%" fill="url(#dots)"/>
+
+  <!-- Title -->
+  <text x="20" y="30" class="text bold" font-size="16">[ USER.INFO : OFF_SCREEN ]</text>
+  <line x1="20" y1="40" x2="260" y2="40" class="border" />
+
+  <!-- Main Box -->
+  <rect x="23" y="63" width="754" height="150" class="shadow" />
+  <rect x="20" y="60" width="754" height="150" fill="#ffffff" class="border" />
+  <rect x="20" y="60" width="754" height="30" fill="#e6e1e0" class="border" />
+  <text x="30" y="80" class="text bold">sys_profile.txt</text>
+  
+  <!-- Minimize Button -->
+  <rect x="744" y="65" width="20" height="20" fill="#ffffff" class="border" />
+  <text x="750" y="80" class="text bold">_</text>
+
+  <!-- Content -->
+  <text x="40" y="120" class="text bold" fill="#6FA04B">COMMUNITY BUILDER:</text>
+  <text x="190" y="120" class="text">Former VP of Outreach at the Entrepreneurs Club,</text>
+  <text x="40" y="145" class="text">GITAM. Orchestrated 35+ events reaching 2,000+ students to inspire.</text>
+
+  <text x="40" y="185" class="text bold" fill="#EB4B2F">FUN FACT:</text>
+  <text x="125" y="185" class="text">When I'm not in Unity or pushing code, you'll likely find</text>
+  <text x="40" y="210" class="text">me on a stage—public speaking, singing 🎶, or acting 🎭!</text>
+</svg>
