@@ -1,0 +1,54 @@
+<svg viewBox="0 0 800 260" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #fdf8f7; }
+    .border { stroke: #000; stroke-width: 2; }
+    .shadow { fill: #000; }
+    .box-1 { fill: #ECE2C7; }
+    .box-2 { fill: #FAF7EE; }
+    .title { font-family: 'Impact', 'Arial Black', sans-serif; font-size: 26px; fill: #000; text-transform: uppercase; }
+    .text { font-family: 'Courier New', monospace; font-size: 14px; fill: #000; }
+    .accent-green { fill: #6FA04B; }
+    .accent-blue { fill: #5B8EFF; }
+  </style>
+
+  <!-- Background Layer -->
+  <rect width="100%" height="100%" class="bg"/>
+  <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+    <circle fill="#1c1b1b" cx="2" cy="2" r="1" opacity="0.3"></circle>
+  </pattern>
+  <rect width="100%" height="100%" fill="url(#dots)"/>
+
+  <!-- STATUS BOX (Left) -->
+  <rect x="23" y="23" width="250" height="210" class="shadow" />
+  <rect x="20" y="20" width="250" height="210" class="box-1 border" />
+  
+  <!-- Status Header -->
+  <rect x="20" y="20" width="250" height="35" class="border" fill="#e6e1e0" />
+  <text x="30" y="43" font-family="'Courier New', monospace" font-size="14" font-weight="bold">[ STATUS ]</text>
+  <circle cx="250" cy="37" r="5" class="accent-green border" />
+
+  <!-- Status Text -->
+  <text x="30" y="80" class="text">&gt; LOC: Reality &amp; VR</text>
+  <text x="30" y="105" class="text">&gt; FOCUS: Spatial XR</text>
+  <text x="30" y="130" class="text">&gt; ROLE: Unity Dev</text>
+  <text x="30" y="155" class="text">&gt; ORG: DJXLABS</text>
+  <text x="30" y="195" class="text" font-weight="bold" fill="#6FA04B">&gt; ONLINE_AND_BUILDING</text>
+
+  <!-- BIO BOX (Right) -->
+  <rect x="303" y="23" width="470" height="210" class="shadow" />
+  <rect x="300" y="20" width="470" height="210" class="box-2 border" />
+  
+  <!-- Bio Header -->
+  <rect x="300" y="20" width="470" height="35" class="border" fill="#e6e1e0" />
+  <text x="310" y="43" font-family="'Courier New', monospace" font-size="14" font-weight="bold">VIJAY_OS.exe</text>
+  <rect x="740" y="25" width="20" height="20" class="border box-1" />
+  <text x="746" y="40" class="text" font-weight="bold">X</text>
+
+  <!-- Bio Text -->
+  <text x="320" y="85" class="title">@VijayKagupati</text>
+  <text x="320" y="115" class="text">XR Creative Technologist building immersive</text>
+  <text x="320" y="135" class="text">experiences that push boundaries. From local</text>
+  <text x="320" y="155" class="text">multiplayer MR games to museum apps, training</text>
+  <text x="320" y="175" class="text">simulations &amp; AI-driven learning tools.</text>
+  <text x="320" y="205" class="text" font-weight="bold" fill="#5B8EFF">Let's build the future of XR together. 🌐</text>
+</svg>
