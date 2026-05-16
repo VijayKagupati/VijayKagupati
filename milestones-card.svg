@@ -1,0 +1,55 @@
+<svg viewBox="0 0 800 240" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #fdf8f7; }
+    .border { stroke: #000; stroke-width: 2; }
+    .shadow { fill: #000; }
+    .box { fill: #ffffff; }
+    .header { fill: #e6e1e0; }
+    .title { font-family: 'Impact', 'Arial Black', sans-serif; font-size: 20px; fill: #000; }
+    .text { font-family: 'Courier New', monospace; font-size: 13px; fill: #000; }
+    .badge { font-family: 'Courier New', monospace; font-size: 11px; fill: #fff; font-weight:bold; }
+  </style>
+
+  <rect width="100%" height="100%" class="bg"/>
+  <pattern id="dots2" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+    <circle fill="#1c1b1b" cx="2" cy="2" r="1" opacity="0.3"></circle>
+  </pattern>
+  <rect width="100%" height="100%" fill="url(#dots2)"/>
+
+  <!-- Title -->
+  <text x="20" y="30" font-family="'Courier New', monospace" font-size="16" font-weight="bold" fill="#000">[ SYSTEM.MILESTONES ]</text>
+  <line x1="20" y1="40" x2="220" y2="40" stroke="#000" stroke-width="2" />
+
+  <!-- Card 1: Meta Store -->
+  <rect x="23" y="63" width="230" height="150" class="shadow" />
+  <rect x="20" y="60" width="230" height="150" class="box border" />
+  <rect x="20" y="60" width="230" height="25" class="header border" />
+  <text x="28" y="77" class="text" font-size="11">01_meta_store.exe</text>
+  <text x="30" y="110" class="title">Gorilla vs 100 Men</text>
+  <text x="30" y="135" class="text">Co-published game</text>
+  <text x="30" y="155" class="text">on Meta Store.</text>
+  <rect x="30" y="175" width="120" height="20" fill="#EB4B2F" class="border" rx="10"/>
+  <text x="40" y="189" class="badge">70,000+ DLS 🦍</text>
+
+  <!-- Card 2: HarvardXR -->
+  <rect x="283" y="63" width="230" height="150" class="shadow" />
+  <rect x="280" y="60" width="230" height="150" class="box border" />
+  <rect x="280" y="60" width="230" height="25" class="header border" />
+  <text x="288" y="77" class="text" font-size="11">02_harvard.exe</text>
+  <text x="290" y="110" class="title">HarvardXR 2025</text>
+  <text x="290" y="135" class="text">Winner of Ideathon.</text>
+  <text x="290" y="155" class="text">AI x AR for kids.</text>
+  <rect x="290" y="175" width="110" height="20" fill="#5B8EFF" class="border" rx="10"/>
+  <text x="300" y="189" class="badge">PRESENTER 🏆</text>
+
+  <!-- Card 3: Bootcamp -->
+  <rect x="543" y="63" width="230" height="150" class="shadow" />
+  <rect x="540" y="60" width="230" height="150" class="box border" />
+  <rect x="540" y="60" width="230" height="25" class="header border" />
+  <text x="548" y="77" class="text" font-size="11">03_bootcamp.exe</text>
+  <text x="550" y="110" class="title">XR Bootcamp</text>
+  <text x="550" y="135" class="text">Built 7+ prototypes</text>
+  <text x="550" y="155" class="text">across the stack.</text>
+  <rect x="550" y="175" width="160" height="20" fill="#6FA04B" class="border" rx="10"/>
+  <text x="560" y="189" class="badge">$8K SCHOLARSHIP 🚀</text>
+</svg>
