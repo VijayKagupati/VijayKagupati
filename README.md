@@ -7,9 +7,8 @@
 
   <img src="stack-card.svg" alt="Tech Stack" width="100%" />
   <br>
-  
-  <img src="comms-header.svg" alt="Comms Header" width="100%" />
 </div>
+  <!-- <img src="comms-header.svg" alt="Comms Header" width="100%" /> -->
 
 > 📡 **`STATUS: SYNCED // FETCHING_DATA...`** 
 > 
@@ -22,8 +21,8 @@
 > 
 > _Want more logs? [Ping my LinkedIn](https://www.linkedin.com/in/vijaykagupati/)._
 
-<br>
+<!-- <br>
 
 <div align="center">
   <img src="off-screen-card.svg" alt="Off Screen Info" width="100%" />
-</div>
+</div> -->
