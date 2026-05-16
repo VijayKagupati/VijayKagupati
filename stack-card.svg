@@ -1,0 +1,76 @@
+<svg viewBox="0 0 800 260" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #fdf8f7; }
+    .border { stroke: #000; stroke-width: 2; }
+    .shadow { fill: #000; }
+    .text { font-family: 'Courier New', monospace; font-size: 14px; fill: #000; }
+    .bold { font-weight: bold; }
+  </style>
+
+  <rect width="100%" height="100%" class="bg"/>
+  <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+    <circle fill="#1c1b1b" cx="2" cy="2" r="1" opacity="0.3"></circle>
+  </pattern>
+  <rect width="100%" height="100%" fill="url(#dots)"/>
+
+  <!-- Title -->
+  <text x="20" y="30" class="text bold" font-size="16">[ SYSTEM.STACK_AND_TOOLS ]</text>
+  <line x1="20" y1="40" x2="260" y2="40" class="border" />
+
+  <!-- LANGUAGES BOX -->
+  <rect x="23" y="63" width="365" height="170" class="shadow" />
+  <rect x="20" y="60" width="365" height="170" fill="#ECE2C7" class="border" />
+  <rect x="20" y="60" width="365" height="30" fill="#e6e1e0" class="border" />
+  <text x="30" y="80" class="text bold">LANGUAGES.dll</text>
+  
+  <!-- C# Tag -->
+  <rect x="40" y="110" width="130" height="30" fill="#fff" class="border" />
+  <rect x="40" y="110" width="10" height="30" fill="#239120" class="border" />
+  <text x="60" y="130" class="text bold">C#</text>
+  
+  <!-- Python Tag -->
+  <rect x="190" y="110" width="130" height="30" fill="#fff" class="border" />
+  <rect x="190" y="110" width="10" height="30" fill="#3776AB" class="border" />
+  <text x="210" y="130" class="text bold">Python</text>
+
+  <!-- C Tag -->
+  <rect x="40" y="160" width="130" height="30" fill="#fff" class="border" />
+  <rect x="40" y="160" width="10" height="30" fill="#A8B9CC" class="border" />
+  <text x="60" y="180" class="text bold">C</text>
+
+  <!-- Java Tag -->
+  <rect x="190" y="160" width="130" height="30" fill="#fff" class="border" />
+  <rect x="190" y="160" width="10" height="30" fill="#007396" class="border" />
+  <text x="210" y="180" class="text bold">Java</text>
+
+  <!-- XR ENGINES BOX -->
+  <rect x="413" y="63" width="365" height="170" class="shadow" />
+  <rect x="410" y="60" width="365" height="170" fill="#FAF7EE" class="border" />
+  <rect x="410" y="60" width="365" height="30" fill="#e6e1e0" class="border" />
+  <text x="420" y="80" class="text bold">XR_ENGINES_&amp;_SDKs.exe</text>
+
+  <!-- Unity Tag -->
+  <rect x="430" y="110" width="120" height="30" fill="#fff" class="border" />
+  <rect x="430" y="110" width="10" height="30" fill="#100000" class="border" />
+  <text x="450" y="130" class="text bold">Unity</text>
+
+  <!-- XR Toolkit Tag -->
+  <rect x="570" y="110" width="185" height="30" fill="#fff" class="border" />
+  <rect x="570" y="110" width="10" height="30" fill="#0769AD" class="border" />
+  <text x="590" y="130" class="text bold" font-size="13">XR Inter. Toolkit</text>
+
+  <!-- OpenXR Tag -->
+  <rect x="430" y="160" width="100" height="30" fill="#fff" class="border" />
+  <rect x="430" y="160" width="10" height="30" fill="#5C2D91" class="border" />
+  <text x="450" y="180" class="text bold">OpenXR</text>
+
+  <!-- Meta Tag -->
+  <rect x="545" y="160" width="105" height="30" fill="#fff" class="border" />
+  <rect x="545" y="160" width="10" height="30" fill="#1C1E20" class="border" />
+  <text x="565" y="180" class="text bold">Meta SDK</text>
+
+  <!-- Vuforia Tag -->
+  <rect x="665" y="160" width="90" height="30" fill="#fff" class="border" />
+  <rect x="665" y="160" width="10" height="30" fill="#009688" class="border" />
+  <text x="685" y="180" class="text bold">Vuforia</text>
+</svg>
